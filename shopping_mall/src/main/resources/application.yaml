@@ -1,0 +1,8 @@
+spring:
+  profiles:
+    active: test
+  application:
+    name: shopping_mall
+
+server:
+  port: 20000
