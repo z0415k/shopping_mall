@@ -55,7 +55,7 @@ Configuration:
         - ref: CONSOLE
         - ref: ROLLING_FILE
     Logger: # 为com.xjj包配置特殊的Log级别，方便调试
-      - name: cn.huimin100.cms
+      - name: cn.shopping_mall
         additivity: false
         level: ${sys:log.level.shoppingMall}
         AppenderRef:
